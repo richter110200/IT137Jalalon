@@ -86,7 +86,15 @@ a:hover
     position: absolute;
     margin-left: 40px;
 }
-@media (max-width: 575.98px){
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: portrait){
 #outerborder
 {
     border: 1px outset rgb(186, 194, 194);
