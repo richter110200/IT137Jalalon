@@ -86,11 +86,11 @@ a:hover
     position: absolute;
     margin-left: 40px;
 }
-@media (min-width: 576px){
+@media (max-width: 575.98px){
 #outerborder
 {
     border: 1px outset rgb(186, 194, 194);
-    width: 300px;
+    width: 280px;
     height: 500px;
     margin-left: 22%;
     margin-top: 5%;
